@@ -1,0 +1,23 @@
+{
+  "name": "state-machine",
+  "version": "1.0.0",
+  "description": "A implementation of the state pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurieTrichet/state-machine.git"
+  },
+  "keywords": [
+    "state",
+    "pattern"
+  ],
+  "author": "Laurie Trichet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaurieTrichet/state-machine/issues"
+  },
+  "homepage": "https://github.com/LaurieTrichet/state-machine#readme"
+}
