@@ -1,5 +1,6 @@
-namespace greets {
-    export function sayHello(name: string) {
+export default class Greetings{
+    public sayHello(name: string) {
         return `Hello from ${name}`;
     }
 }
+   

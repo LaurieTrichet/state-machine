@@ -3,3 +3,5 @@
 
 # build
 dist/**
+test/dist/**
+node_modules

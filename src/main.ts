@@ -1,4 +1,3 @@
-import sayHello = greets.sayHello;
-namespace greets {
-    console.log(sayHello("TypeScript"));
-}
+import Greetings from "./greets";
+
+console.log(new Greetings().sayHello("TypeScript"));

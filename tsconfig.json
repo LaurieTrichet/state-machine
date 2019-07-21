@@ -2,12 +2,12 @@
     "compilerOptions": {
         "noImplicitAny": true,
         "target": "es5",
-        "module": "none",
+        "module": "commonjs",
         "sourceMap": true,
-        "outFile":"dist/main.js"
+        "outDir": "dist/"
     },
     "include": [
-        "src/**/*.ts"
+        "src/**/*.ts",
     ],
     "exclude": [
         "node_modules",
