@@ -1,5 +1,4 @@
 /// <reference path="../node_modules/@types/chai/index.d.ts" />
-/// <reference path="../src/greets.ts" />
 
 import * as chai from 'chai';
 import Greetings from '../src/greets';
