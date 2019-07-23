@@ -4,9 +4,9 @@
   "description": "A implementation of the state pattern",
   "main": "main.js",
   "scripts": {
-    "test": "mocha test/**/*spec.js",
-    "build-test": "tsc -p tsconfig.test.json",
-    "build": "webpack",
+    "test": "npm run build-test && mocha test/**/*spec.js",
+    "build-test": "npm run clean-test && tsc -p tsconfig.test.json",
+    "build": "npm run clean && webpack",
     "run": "node dist/main.js",
     "clean": "rm -rf dist/",
     "clean-test": "rm -rf test/dist/"
