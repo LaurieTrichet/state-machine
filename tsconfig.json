@@ -5,7 +5,8 @@
         "module": "es6",
         "moduleResolution": "node",
         "sourceMap": true,
-        "outDir": "dist/"
+        "outDir": "dist/",
+        "allowSyntheticDefaultImports":true
     },
     "include": [
         "src/**/*.ts",
