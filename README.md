@@ -2,7 +2,7 @@
 
 This project is an exercise to setup a typescript project from scratch, to understand the different parts that are involved in the process. 
 
-
+Steps:
 1. configure the typescrip compiler using es6 module settings.
 2. add webpack to run the app on the browser a, using the babel-loader.
 3. add test using mocha/chai
@@ -44,3 +44,18 @@ python -m http.server 8080
 ```
 
 http://localhost:8080/dist/
+
+## Run the tests
+This runs a script that set an env variable for mocha.
+
+- without coverage
+```bash
+npm test
+```
+
+- with coverage
+Test reports are generated under the `coverage` folder, the coverage is also displayed in the console.
+
+```bash
+npm run test-with-coverage
+```
