@@ -1,12 +1,14 @@
 {
+    "extends":"./tsconfig",
     "compilerOptions": {
-        "noImplicitAny": true,
-        "target": "es5",
         "module": "commonjs",
         "outDir": "test/dist"
     },
     "include": [
-        "test/**/*.ts",
+        "test/**/*.spec.ts",
         "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
     ]
 }

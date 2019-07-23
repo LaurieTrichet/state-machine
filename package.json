@@ -7,7 +7,9 @@
     "test": "mocha test/**/*spec.js",
     "build-test": "tsc -p tsconfig.test.json",
     "build": "tsc -p tsconfig.json",
-    "run": "node dist/main.js"
+    "run": "node dist/main.js",
+    "clean": "rm -rf dist/",
+    "clean-test": "rm -rf test/dist/"
   },
   "repository": {
     "type": "git",
